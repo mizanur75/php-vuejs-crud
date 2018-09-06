@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 75%;
+	margin: auto;
+	margin-top: 40px;
+}
+.fleft{
+	float: left;
+}
+.fright{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+h1{
+	font-size: 22px;
+}
+.btn{
+	padding: 3px 5px;
+	border-radius: 3px;
+	border: none;
+}
+.btn-info{
+	background-color: #00AFE8;
+	color: white;
+}
+.btn-danger{
+	background-color: #C72815;
+	color: white;
+}
+.btn-success{
+	background: #379142;
+	color: #FFFFFF;
+}
+.scroll{
+	max-height: 400px;
+	overflow: scroll;
+}
+table.list{
+	width: 100%;
+	margin-top: 10px;
+	max-height: 200px;
+	overflow: scroll;
+}
+.center{
+	text-align: center;
+}
+table.list th{
+	background-color: #191770;
+	color: #FFFFFF;
+	padding: 9px 2px;
+}
+table.list td{
+	padding: 5px;
+}
+table.list tr{
+	background-color: #E1DEDE;
+}
+.modal{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.4);
+}
+.modal-container{
+	width: 30%;
+	background: #FFFFFF;
+	margin: auto;
+	margin-top: 100px;
+}
+.modal-head{
+	padding: 7px;
+	background: #0525F8;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.modal-body{
+	padding: 40px;
+	margin-left: 20px;
+	min-height: 100px;
+}
+.right{
+	text-align: right;
+}
+table.form td, table.form input{
+	padding: 6px;
+}
+p.success{
+	background: #B4EFB5;
+	color: #3A9436;
+	padding: 9px;
+	margin: 22px 0;
+	border-left: 5px solid #DA1527;
+}
+p.error{
+	background: #EC9090;
+	color: #9B2D2D;
+	padding: 9px;
+	margin: 22px 0;
+	border-left: 5px solid #45D671;
+}
